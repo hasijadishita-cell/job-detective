@@ -124,6 +124,9 @@ npm run dev
 
 Open the local URL displayed by Vite in the browser.
 
+## Live Demo
+Try Job Detective-https://job-detective.onrender.com
+
 ## Why I Built This
 
 Job searching can become confusing when applications are spread across different websites and it is difficult to see what is actually working.

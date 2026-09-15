@@ -124,7 +124,13 @@ npm run dev
 
 Open the local URL displayed by Vite in the browser.
 
+## Demo
+
+Watch the full Job Detective demo:
+https://youtu.be/hcCbUBwQdxo
+
 ## Live Demo
+
 Try Job Detective-https://job-detective.onrender.com
 
 ## Why I Built This

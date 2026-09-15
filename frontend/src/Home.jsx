@@ -11,7 +11,7 @@ function App() {
   const navigate=useNavigate();
   const [applications, setApplications] = useState([])
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/applications")
+    fetch("https://job-detective-api.onrender.com/applications")
     .then(response => response.json())
     .then(data => setApplications(data));
   }, []);
@@ -37,7 +37,7 @@ function App() {
       notes: notes
 
     };
-    fetch("http://127.0.0.1:5000/applications", 
+    fetch("https://job-detective-api.onrender.com/applications", 
       {method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -1,0 +1,135 @@
+.analysis-page {
+    min-height: 100vh;
+    background: #08111f;
+    color: white;
+    padding: 30px 50px;
+  }
+  
+  .analysis-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .analysis-topbar button {
+    background: #171c32;
+    color: #b89cff;
+    border: 1px solid #343b5c;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .summary{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    display: block;
+  }
+  .analysis-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .analysis-header h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+  }
+  
+  .analysis-header p {
+    color: #9ca3af;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .stat-card {
+    background: #111c2d;
+    border: 1px solid #263750;
+    border-radius: 14px;
+    padding: 25px 15px;
+    text-align: center;
+  }
+  
+  .stat-card h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .stat-card p {
+    color: #cbd5e1;
+    margin-top: 10px;
+  }
+  
+  .analysis-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+  .chart-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
+  .chart-title {
+    text-align: center;
+    margin: 0 0 6px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .chart-subtitle {
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  .analyse-button {
+    display: block;
+    margin: 30px auto 0 auto;
+  
+    padding: 16px 34px;
+  
+    border: none;
+    border-radius: 30px;
+  
+    font-size: 18px;
+    font-weight: 700;
+  
+    color: white;
+  
+    background: linear-gradient(
+      90deg,
+      #1da1f2,
+      #4f46e5,
+      #8b5cf6
+    );
+  
+    cursor: pointer;
+  
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.55);
+  
+    transition: 0.2s ease;
+  }
+  
+  .analyse-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 28px rgba(139, 92, 246, 0.75);
+  }
+  
+  .analyse-button:active {
+    transform: scale(0.98);
+  }
+  .analysis-box {
+    background: #111c2d;
+    border: 1px solid #263750;
+    border-radius: 16px;
+    padding: 25px;
+    min-height: 250px;
+  }
